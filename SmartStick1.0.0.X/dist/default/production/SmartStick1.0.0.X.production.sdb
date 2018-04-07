@@ -1,0 +1,495 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16LF15344 ]
+[d frameptr 6 ]
+"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/src/Sensor_MB1040.h
+[e E8249 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+[e E8249 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+"54 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+[e E8123 . `uc
+ANA 4
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/src/Sensor_MB1040.h
+[e E8249 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+"81 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+[e E8108 . `uc
+ANA 4
+channel_AVSS 59
+channel_Temp 60
+channel_DAC1 61
+channel_FVR_BUF1 62
+channel_FVR_BUF2 63
+]
+"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/src/Sensor_MB1040.h
+[e E8249 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.h
+[e E1 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"26 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"107
+[v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
+"72 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"108
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+"128
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"161
+[v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
+"180
+[v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
+"33 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+[v _INT_ISR INT_ISR `(v  1 e 1 0 ]
+"40
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+"47
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+"51
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"51 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"87 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"99
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"115
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"60 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"120
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"131
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"141
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"145
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"47 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.c
+[v _MB1040_Initialize MB1040_Initialize `(v  1 e 1 0 ]
+"58
+[v _MB1040_Tasks MB1040_Tasks `(v  1 e 1 0 ]
+[s S193 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"424 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16lf15344.h
+[u S198 . 1 `S193 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES198  1 e 1 @11 ]
+"595
+[v _TRISA TRISA `VEuc  1 e 1 @18 ]
+"640
+[v _TRISB TRISB `VEuc  1 e 1 @19 ]
+"679
+[v _TRISC TRISC `VEuc  1 e 1 @20 ]
+"741
+[v _LATA LATA `VEuc  1 e 1 @24 ]
+[s S512 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"756
+[u S519 . 1 `S512 1 . 1 0 ]
+[v _LATAbits LATAbits `VES519  1 e 1 @24 ]
+"786
+[v _LATB LATB `VEuc  1 e 1 @25 ]
+[s S558 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"800
+[u S564 . 1 `S558 1 . 1 0 ]
+[v _LATBbits LATBbits `VES564  1 e 1 @25 ]
+"825
+[v _LATC LATC `VEuc  1 e 1 @26 ]
+[s S573 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"842
+[u S582 . 1 `S573 1 . 1 0 ]
+[v _LATCbits LATCbits `VES582  1 e 1 @26 ]
+"894
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"964
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"1034
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S437 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GOnDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 CHS5 1 0 :1:7 
+]
+"1055
+[s S446 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CHS 1 0 :6:2 
+]
+[u S449 . 1 `S437 1 . 1 0 `S446 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES449  1 e 1 @157 ]
+"1105
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"6604
+[v _TMR0L TMR0L `VEuc  1 e 1 @1436 ]
+"6742
+[v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
+"6996
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
+[s S642 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"7016
+[s S648 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S653 . 1 `S642 1 . 1 0 `S648 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES653  1 e 1 @1438 ]
+"7061
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
+[s S172 . 1 `uc 1 INTF 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"7922
+[u S177 . 1 `S172 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES177  1 e 1 @1804 ]
+[s S225 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"8030
+[u S233 . 1 `S225 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES233  1 e 1 @1807 ]
+[s S159 . 1 `uc 1 INTE 1 0 :1:0 
+`uc 1 . 1 0 :3:1 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"8217
+[u S164 . 1 `S159 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES164  1 e 1 @1814 ]
+[s S206 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"8319
+[u S214 . 1 `S206 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES214  1 e 1 @1817 ]
+"8493
+[v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
+"8538
+[v _PMD1 PMD1 `VEuc  1 e 1 @1943 ]
+"8586
+[v _PMD2 PMD2 `VEuc  1 e 1 @1944 ]
+"8631
+[v _PMD3 PMD3 `VEuc  1 e 1 @1945 ]
+"8681
+[v _PMD4 PMD4 `VEuc  1 e 1 @1946 ]
+"8721
+[v _PMD5 PMD5 `VEuc  1 e 1 @1947 ]
+"9762
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"9902
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"9936
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"9988
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"10034
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"10092
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"11076
+[v _RC2REG RC2REG `VEuc  1 e 1 @2585 ]
+"11114
+[v _TX2REG TX2REG `VEuc  1 e 1 @2586 ]
+"11159
+[v _SP2BRGL SP2BRGL `VEuc  1 e 1 @2587 ]
+"11197
+[v _SP2BRGH SP2BRGH `VEuc  1 e 1 @2588 ]
+"11235
+[v _RC2STA RC2STA `VEuc  1 e 1 @2589 ]
+[s S303 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"11257
+[u S312 . 1 `S303 1 . 1 0 ]
+[v _RC2STAbits RC2STAbits `VES312  1 e 1 @2589 ]
+"11357
+[v _TX2STA TX2STA `VEuc  1 e 1 @2590 ]
+"11479
+[v _BAUD2CON BAUD2CON `VEuc  1 e 1 @2591 ]
+[s S122 . 1 `uc 1 INTPPS 1 0 :6:0 
+]
+"15945
+[s S124 . 1 `uc 1 INTPPS0 1 0 :1:0 
+`uc 1 INTPPS1 1 0 :1:1 
+`uc 1 INTPPS2 1 0 :1:2 
+`uc 1 INTPPS3 1 0 :1:3 
+`uc 1 INTPPS4 1 0 :1:4 
+`uc 1 INTPPS5 1 0 :1:5 
+]
+[u S131 . 1 `S122 1 . 1 0 `S124 1 . 1 0 ]
+[v _INTPPSbits INTPPSbits `VES131  1 e 1 @7824 ]
+[s S100 . 1 `uc 1 RX2DTPPS 1 0 :6:0 
+]
+"17027
+[s S102 . 1 `uc 1 RX2DTPPS0 1 0 :1:0 
+`uc 1 RX2DTPPS1 1 0 :1:1 
+`uc 1 RX2DTPPS2 1 0 :1:2 
+`uc 1 RX2DTPPS3 1 0 :1:3 
+`uc 1 RX2DTPPS4 1 0 :1:4 
+`uc 1 RX2DTPPS5 1 0 :1:5 
+]
+[u S109 . 1 `S100 1 . 1 0 `S102 1 . 1 0 ]
+[v _RX2DTPPSbits RX2DTPPSbits `VES109  1 e 1 @7885 ]
+"17565
+[v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
+"17917
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"17962
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"18012
+[v _ODCONA ODCONA `VEuc  1 e 1 @7994 ]
+"18302
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"18341
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"18380
+[v _ODCONB ODCONB `VEuc  1 e 1 @8005 ]
+"18614
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"18676
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"18738
+[v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
+"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+[v _eusart2TxHead eusart2TxHead `VEuc  1 e 1 0 ]
+"60
+[v _eusart2TxTail eusart2TxTail `VEuc  1 e 1 0 ]
+"61
+[v _eusart2TxBuffer eusart2TxBuffer `VE[16]uc  1 e 16 0 ]
+"62
+[v _eusart2TxBufferRemaining eusart2TxBufferRemaining `VEuc  1 e 1 0 ]
+"64
+[v _eusart2RxHead eusart2RxHead `VEuc  1 e 1 0 ]
+"65
+[v _eusart2RxTail eusart2RxTail `VEuc  1 e 1 0 ]
+"66
+[v _eusart2RxBuffer eusart2RxBuffer `VE[64]uc  1 e 64 0 ]
+"67
+[v _eusart2RxCount eusart2RxCount `VEuc  1 e 1 0 ]
+"31 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+[v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S19 . 7 `ui 1 adcResult1 2 0 `ui 1 adcResult_Sum 2 2 `uc 1 adccontSample 1 4 `ui 1 adcResultTot 2 5 ]
+"86 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/mcc_generated_files/adc.h
+[v _ADCval ADCval `S19  1 e 7 0 ]
+[s S28 . 1 `E8249 1 state 1 0 ]
+"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.h
+[v _MB1040_Data MB1040_Data `S28  1 e 1 0 ]
+"26 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"51
+} 0
+"87 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"60 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"84
+} 0
+"141
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"143
+} 0
+"115 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"129
+} 0
+"52 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"99 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"113
+} 0
+"47 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.c
+[v _MB1040_Initialize MB1040_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"64 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"47
+[v _INT_SetInterruptHandler INT_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"49
+} 0
+"72 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"106
+} 0
+"62 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"58 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.c
+[v _MB1040_Tasks MB1040_Tasks `(v  1 e 1 0 ]
+{
+"76
+} 0
+"51 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"81
+} 0
+"120 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"129
+} 0
+"131
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"139
+} 0
+"145
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"148
+} 0
+"33 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+[v _INT_ISR INT_ISR `(v  1 e 1 0 ]
+{
+"38
+} 0
+"40
+[v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
+{
+"45
+} 0
+"51
+[v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"62
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"107 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E8108  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E8108  1 a 1 wreg ]
+"110
+[v ADC_GetConversion@channel channel `E8108  1 a 1 3 ]
+"128
+} 0
+"161 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
+{
+"178
+} 0
+"180
+[v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
+{
+"198
+} 0
