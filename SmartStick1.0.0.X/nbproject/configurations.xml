@@ -38,6 +38,10 @@
       <itemPath>main.c</itemPath>
       <itemPath>src/Sensor_MB1040.c</itemPath>
       <itemPath>src/Comunicacion_BT.c</itemPath>
+      <itemPath>src/Keyboard.c</itemPath>
+      <itemPath>src/Keyboard.h</itemPath>
+      <itemPath>src/TimeDelay.c</itemPath>
+      <itemPath>src/TimeDelay.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -46,6 +50,9 @@
       <itemPath>ConfigSmart.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
+  <sourceRootList>
+    <Elem>src</Elem>
+  </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="default" type="2">

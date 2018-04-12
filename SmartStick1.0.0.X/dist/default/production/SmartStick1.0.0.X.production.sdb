@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16LF15344 ]
 [d frameptr 6 ]
-"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/src/Sensor_MB1040.h
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
 [e E8249 . `uc
 MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
@@ -14,7 +14,7 @@ MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
 MB1040_STATES_ERROR 2
 ]
-"54 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+"54 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
 [e E8123 . `uc
 ANA 4
 channel_AVSS 59
@@ -23,13 +23,13 @@ channel_DAC1 61
 channel_FVR_BUF1 62
 channel_FVR_BUF2 63
 ]
-"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/src/Sensor_MB1040.h
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
 [e E8249 . `uc
 MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
 MB1040_STATES_ERROR 2
 ]
-"81 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+"81 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/adc.c
 [e E8108 . `uc
 ANA 4
 channel_AVSS 59
@@ -38,14 +38,38 @@ channel_DAC1 61
 channel_FVR_BUF1 62
 channel_FVR_BUF2 63
 ]
-"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/src/Sensor_MB1040.h
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
 [e E8249 . `uc
 MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
 MB1040_STATES_ERROR 2
 ]
-"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.h
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Sensor_MB1040.h
 [e E1 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.h
+[e E1 . `uc
+KEYBOARD_STATES_INIT 0
+KEYBOARD_STATES_IDLE 1
+KEYBOARD_STATES_ERROR 2
+]
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
+[e E8262 . `uc
+MB1040_STATES_INIT 0
+MB1040_STATES_IDLE 1
+MB1040_STATES_ERROR 2
+]
+"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.h
+[e E1 . `uc
+TIMEDELAY_STATES_INIT 0
+TIMEDELAY_STATES_IDLE 1
+TIMEDELAY_STATES_ERROR 2
+]
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
+[e E8264 . `uc
 MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
 MB1040_STATES_ERROR 2
@@ -56,13 +80,13 @@ MB1040_STATES_ERROR 2
 [v ___ftadd __ftadd `(f  1 e 3 0 ]
 "6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lwdiv.c
 [v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
-"26 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\main.c
+"26 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\main.c
 [v _main main `(v  1 e 1 0 ]
-"62 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+"62 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 "107
 [v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
-"72 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+"72 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
 [v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
 "108
 [v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
@@ -72,7 +96,7 @@ MB1040_STATES_ERROR 2
 [v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
 "180
 [v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
-"33 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+"33 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
 [v _INT_ISR INT_ISR `(v  1 e 1 0 ]
 "40
 [v _INT_CallBack INT_CallBack `(v  1 e 1 0 ]
@@ -82,17 +106,17 @@ MB1040_STATES_ERROR 2
 [v _INT_DefaultInterruptHandler INT_DefaultInterruptHandler `(v  1 e 1 0 ]
 "64
 [v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
-"51 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
+"51 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"87 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+"87 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "99
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "115
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
-"52 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/pin_manager.c
+"52 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"60 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+"60 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 "120
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
@@ -102,10 +126,12 @@ MB1040_STATES_ERROR 2
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
 "145
 [v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"47 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.c
+"47 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Sensor_MB1040.c
 [v _MB1040_Initialize MB1040_Initialize `(v  1 e 1 0 ]
 "58
 [v _MB1040_Tasks MB1040_Tasks `(v  1 e 1 0 ]
+"47 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
+[v _Ticker_Handler Ticker_Handler `(v  1 e 1 0 ]
 [s S193 . 1 `uc 1 INTEDG 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 PEIE 1 0 :1:6 
@@ -122,7 +148,7 @@ MB1040_STATES_ERROR 2
 [v _TRISC TRISC `VEuc  1 e 1 @20 ]
 "741
 [v _LATA LATA `VEuc  1 e 1 @24 ]
-[s S512 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S595 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -130,22 +156,22 @@ MB1040_STATES_ERROR 2
 `uc 1 LATA5 1 0 :1:5 
 ]
 "756
-[u S519 . 1 `S512 1 . 1 0 ]
-[v _LATAbits LATAbits `VES519  1 e 1 @24 ]
+[u S602 . 1 `S595 1 . 1 0 ]
+[v _LATAbits LATAbits `VES602  1 e 1 @24 ]
 "786
 [v _LATB LATB `VEuc  1 e 1 @25 ]
-[s S558 . 1 `uc 1 . 1 0 :4:0 
+[s S641 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LATB4 1 0 :1:4 
 `uc 1 LATB5 1 0 :1:5 
 `uc 1 LATB6 1 0 :1:6 
 `uc 1 LATB7 1 0 :1:7 
 ]
 "800
-[u S564 . 1 `S558 1 . 1 0 ]
-[v _LATBbits LATBbits `VES564  1 e 1 @25 ]
+[u S647 . 1 `S641 1 . 1 0 ]
+[v _LATBbits LATBbits `VES647  1 e 1 @25 ]
 "825
 [v _LATC LATC `VEuc  1 e 1 @26 ]
-[s S573 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S656 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -155,8 +181,8 @@ MB1040_STATES_ERROR 2
 `uc 1 LATC7 1 0 :1:7 
 ]
 "842
-[u S582 . 1 `S573 1 . 1 0 ]
-[v _LATCbits LATCbits `VES582  1 e 1 @26 ]
+[u S665 . 1 `S656 1 . 1 0 ]
+[v _LATCbits LATCbits `VES665  1 e 1 @26 ]
 "894
 [v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
 "964
@@ -186,20 +212,20 @@ MB1040_STATES_ERROR 2
 [v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
 "6996
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
-[s S642 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S523 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T016BIT 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
 "7016
-[s S648 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S529 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
-[u S653 . 1 `S642 1 . 1 0 `S648 1 . 1 0 ]
-[v _T0CON0bits T0CON0bits `VES653  1 e 1 @1438 ]
+[u S534 . 1 `S523 1 . 1 0 `S529 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES534  1 e 1 @1438 ]
 "7061
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
 [s S172 . 1 `uc 1 INTF 1 0 :1:0 
@@ -334,7 +360,7 @@ MB1040_STATES_ERROR 2
 [v _WPUC WPUC `VEuc  1 e 1 @8015 ]
 "18738
 [v _ODCONC ODCONC `VEuc  1 e 1 @8016 ]
-"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
 [v _eusart2TxHead eusart2TxHead `VEuc  1 e 1 0 ]
 "60
 [v _eusart2TxTail eusart2TxTail `VEuc  1 e 1 0 ]
@@ -350,27 +376,31 @@ MB1040_STATES_ERROR 2
 [v _eusart2RxBuffer eusart2RxBuffer `VE[64]uc  1 e 64 0 ]
 "67
 [v _eusart2RxCount eusart2RxCount `VEuc  1 e 1 0 ]
-"31 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+"31 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
 [v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
-"58 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
 [v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
-[s S19 . 7 `ui 1 adcResult1 2 0 `ui 1 adcResult_Sum 2 2 `uc 1 adccontSample 1 4 `ui 1 adcResultTot 2 5 ]
-"86 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X/mcc_generated_files/adc.h
-[v _ADCval ADCval `S19  1 e 7 0 ]
 [s S28 . 1 `E8249 1 state 1 0 ]
-"59 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.h
+"59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
 [v _MB1040_Data MB1040_Data `S28  1 e 1 0 ]
-"26 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\main.c
+[s S19 . 7 `ui 1 adcResult1 2 0 `ui 1 adcResult_Sum 2 2 `uc 1 adccontSample 1 4 `ui 1 adcResultTot 2 5 ]
+"86 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/mcc_generated_files/adc.h
+[v _ADCval ADCval `S19  1 e 7 0 ]
+"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.h
+[v _Keyboard_Data Keyboard_Data `S28  1 e 1 0 ]
+"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.h
+[v _TimeDelay_Data TimeDelay_Data `S28  1 e 1 0 ]
+"26 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "51
 } 0
-"87 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+"87 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "97
 } 0
-"60 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+"60 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
 "84
@@ -381,27 +411,27 @@ MB1040_STATES_ERROR 2
 [v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "143
 } 0
-"115 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+"115 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/mcc.c
 [v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
 {
 "129
 } 0
-"52 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/pin_manager.c
+"52 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "94
 } 0
-"99 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/mcc.c
+"99 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "113
 } 0
-"47 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.c
+"47 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Sensor_MB1040.c
 [v _MB1040_Initialize MB1040_Initialize `(v  1 e 1 0 ]
 {
 "56
 } 0
-"64 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+"64 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
 [v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
 {
 "74
@@ -412,27 +442,27 @@ MB1040_STATES_ERROR 2
 [v INT_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "49
 } 0
-"72 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+"72 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
 [v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
 {
 "106
 } 0
-"62 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+"62 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/adc.c
 [v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
 {
 "78
 } 0
-"58 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\src/Sensor_MB1040.c
+"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Sensor_MB1040.c
 [v _MB1040_Tasks MB1040_Tasks `(v  1 e 1 0 ]
 {
 "76
 } 0
-"51 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
+"51 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "81
 } 0
-"120 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
+"120 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
 {
 "129
@@ -447,7 +477,14 @@ MB1040_STATES_ERROR 2
 {
 "148
 } 0
-"33 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
+"47 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
+[v _Ticker_Handler Ticker_Handler `(v  1 e 1 0 ]
+{
+"48
+[v Ticker_Handler@ticks ticks `uc  1 s 1 ticks ]
+"50
+} 0
+"33 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
 [v _INT_ISR INT_ISR `(v  1 e 1 0 ]
 {
 "38
@@ -474,7 +511,7 @@ MB1040_STATES_ERROR 2
 [v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
 "31
 } 0
-"107 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/adc.c
+"107 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/adc.c
 [v _ADC_GetConversion ADC_GetConversion `(ui  1 e 2 0 ]
 {
 [v ADC_GetConversion@channel channel `E8108  1 a 1 wreg ]
@@ -483,7 +520,7 @@ MB1040_STATES_ERROR 2
 [v ADC_GetConversion@channel channel `E8108  1 a 1 3 ]
 "128
 } 0
-"161 C:\Users\diego\MPLABXProjects\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
+"161 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/eusart2.c
 [v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
 {
 "178
