@@ -55,6 +55,8 @@
 #include "adc.h"
 #include "eusart2.h"
 #include "../src/Sensor_MB1040.h"
+#include "../src/TimeDelay.h"
+#include "../src/Keyboard.h"
 
 #define _XTAL_FREQ  32000000
 

@@ -25,6 +25,7 @@
   Section: Included Files
  */
 #include "TimeDelay.h"
+#include <assert.h>
 #include "../mcc_generated_files/mcc.h"
 
 /**
@@ -35,7 +36,28 @@
 /**
   Section: Global Variables
  */
-//volatile uint8_t foo = 0;
+volatile uint16_t ticks;
+
+/**
+@Summary
+  None.
+
+@Description
+  None
+
+@Preconditions
+  None
+
+@Param
+  None
+
+@Returns
+  None
+
+@Comment
+    
+ */
+void Ticker_Handler(void);
 
 /**
   Section: Time & Delay APIs
@@ -45,21 +67,42 @@ void TimeDelay_Initialize(void) {
 }
 
 void Ticker_Handler(void) {
-    static uint8_t ticks;
     ticks++;
 }
 
+uint8_t NonBlockingDelay(vTimer *vTimer) {
+    // structure de timer con valor y status
+    if (!vTimer->status) {
+        vTimer->down = ticks;
+        vTimer->up = vTimer->down + vTimer->delay;
+        vTimer->status = true;
+    } else if (ticks > vTimer->up && ticks < vTimer->down) {
+        vTimer->status = false;
+    }
+    return vTimer->status;
+}
+
 void TimeDelay_Tasks(void) {
+    static uint16_t prior_ticks_secure;
     switch (TimeDelay_Data.state) {
         case TIMEDELAY_STATES_INIT:
         {
+            TimeDelay_Initialize();
             TimeDelay_Data.state = TIMEDELAY_STATES_IDLE;
             break;
         }
         case TIMEDELAY_STATES_IDLE:
         {
-
+            //Optimizing, it can put WDT reset to do these
+            __conditional_software_breakpoint(ticks <= prior_ticks_secure);
+            if (ticks >= prior_ticks_secure)
+                TimeDelay_Data.state = TIMEDELAY_STATES_ERROR;
+            prior_ticks_secure = ticks + SAFETY_MLOOP_TIME;
             break;
+        }
+        case TIMEDELAY_STATES_ERROR:
+        {
+            RESET();
         }
     }
 }

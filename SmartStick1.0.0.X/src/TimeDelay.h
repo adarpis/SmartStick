@@ -28,6 +28,7 @@
 /**
   Section: Included Files
  */
+//#include "../mcc_generated_files/mcc.h"
 
 
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -38,6 +39,7 @@ extern "C" {
       Section: Macro Declarations
      */
     //#define FOO  (foo.var)
+#define SAFETY_MLOOP_TIME 100
 
     /**
       Section: Data Type Definitions
@@ -51,6 +53,14 @@ extern "C" {
     typedef struct {
         TIMEDELAY_STATES state;
     } TIMEDELAY_DATA;
+    
+    typedef struct {
+        unsigned int delay;
+        unsigned int down;
+        unsigned int up;
+        unsigned char status : 1;
+        unsigned char reset  : 1;
+    } vTimer;
 
     /**
      Section: Global variables
@@ -102,27 +112,6 @@ extern "C" {
     
      */
     void TimeDelay_Tasks(void);
-    
-    /**
-    @Summary
-      None.
-
-    @Description
-      None
-
-    @Preconditions
-      None
-
-    @Param
-      None
-
-    @Returns
-      None
-
-    @Comment
-    
-     */
-    void Ticker_Handler(void);
 
 #ifdef __cplusplus  // Provide C++ Compatibility
 }

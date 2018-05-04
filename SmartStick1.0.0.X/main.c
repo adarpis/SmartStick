@@ -47,6 +47,8 @@ void main(void) {
     while (1) {
         // Add your application code
         MB1040_Tasks();
+        TimeDelay_Tasks();
+        Keyboard_Tasks();
     }
 }
 /**

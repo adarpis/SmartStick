@@ -48,12 +48,13 @@ void Keyboard_Tasks(void) {
     switch (Keyboard_Data.state) {
         case KEYBOARD_STATES_INIT:
         {
+            Keyboard_Initialize();
             Keyboard_Data.state = KEYBOARD_STATES_IDLE;
             break;
         }
         case KEYBOARD_STATES_IDLE:
         {
-
+            
             break;
         }
     }

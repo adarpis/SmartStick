@@ -10295,13 +10295,61 @@ void EUSART2_Transmit_ISR(void);
 # 185
 void EUSART2_Receive_ISR(void);
 
-# 73 "src/../mcc_generated_files/mcc.h"
+# 47 "src/../mcc_generated_files/../src/TimeDelay.h"
+typedef enum {
+TIMEDELAY_STATES_INIT = 0,
+TIMEDELAY_STATES_IDLE,
+TIMEDELAY_STATES_ERROR,
+} TIMEDELAY_STATES;
+
+typedef struct {
+TIMEDELAY_STATES state;
+} TIMEDELAY_DATA;
+
+typedef struct {
+unsigned int delay;
+unsigned int down;
+unsigned int up;
+unsigned char status : 1;
+unsigned char reset : 1;
+} vTimer;
+
+# 68
+TIMEDELAY_DATA TimeDelay_Data;
+
+# 93
+void TimeDelay_Initialize(void);
+
+# 114
+void TimeDelay_Tasks(void);
+
+# 45 "src/../mcc_generated_files/../src/Keyboard.h"
+typedef enum {
+KEYBOARD_STATES_INIT = 0,
+KEYBOARD_STATES_IDLE,
+KEYBOARD_STATES_ERROR,
+} KEYBOARD_STATES;
+
+typedef struct {
+KEYBOARD_STATES state;
+} KEYBOARD_DATA;
+
+# 58
+KEYBOARD_DATA Keyboard_Data;
+
+# 83
+void Keyboard_Initialize(void);
+
+# 104
+void Keyboard_Tasks(void);
+
+# 75 "src/../mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
 
-# 86
+# 88
 void OSCILLATOR_Initialize(void);
 
-# 99
+# 101
 void PMD_Initialize(void);
 
 # 47 "src/Sensor_MB1040.c"
