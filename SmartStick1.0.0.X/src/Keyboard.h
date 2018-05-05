@@ -46,6 +46,9 @@ extern "C" {
         KEYBOARD_STATES_INIT = 0,
         KEYBOARD_STATES_IDLE,
         KEYBOARD_STATES_ERROR,
+        KEYBOARD_STATES_PROCESS,
+        KEYBOARD_STATES_F1,
+        KEYBOARD_STATES_F2,
     } KEYBOARD_STATES;
 
     typedef struct {

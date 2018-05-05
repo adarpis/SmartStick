@@ -10360,24 +10360,36 @@ void TimeDelay_Initialize(void);
 # 114
 void TimeDelay_Tasks(void);
 
+# 135
+unsigned char NonBlockingDelay(vTimer *vTimer);
+
+# 156
+void TimeDelay_Reset (vTimer *vTimer);
+
+# 177
+void TimeDelay_Set (vTimer *vTimer, unsigned int delay);
+
 # 45 "mcc_generated_files/../src/Keyboard.h"
 typedef enum {
 KEYBOARD_STATES_INIT = 0,
 KEYBOARD_STATES_IDLE,
 KEYBOARD_STATES_ERROR,
+KEYBOARD_STATES_PROCESS,
+KEYBOARD_STATES_F1,
+KEYBOARD_STATES_F2,
 } KEYBOARD_STATES;
 
 typedef struct {
 KEYBOARD_STATES state;
 } KEYBOARD_DATA;
 
-# 58
+# 61
 KEYBOARD_DATA Keyboard_Data;
 
-# 83
+# 86
 void Keyboard_Initialize(void);
 
-# 104
+# 107
 void Keyboard_Tasks(void);
 
 # 75 "mcc_generated_files/mcc.h"

@@ -14,11 +14,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 "53
 [s S906 `E8262 1 ]
 [n S906 . state ]
-"58 mcc_generated_files/../src/Keyboard.h
-[c E8282 0 1 2 .. ]
-[n E8282 . KEYBOARD_STATES_INIT KEYBOARD_STATES_IDLE KEYBOARD_STATES_ERROR  ]
-"51
-[s S908 `E8282 1 ]
+"61 mcc_generated_files/../src/Keyboard.h
+[c E8289 0 1 2 3 4 5 .. ]
+[n E8289 . KEYBOARD_STATES_INIT KEYBOARD_STATES_IDLE KEYBOARD_STATES_ERROR KEYBOARD_STATES_PROCESS KEYBOARD_STATES_F1 KEYBOARD_STATES_F2  ]
+"54
+[s S908 `E8289 1 ]
 [n S908 . state ]
 "8210 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16lf15344.h
 [s S396 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
@@ -7711,19 +7711,25 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;TimeDelay.h: 68: TIMEDELAY_DATA TimeDelay_Data;
 [; ;TimeDelay.h: 93: void TimeDelay_Initialize(void);
 [; ;TimeDelay.h: 114: void TimeDelay_Tasks(void);
+[; ;TimeDelay.h: 135: unsigned char NonBlockingDelay(vTimer *vTimer);
+[; ;TimeDelay.h: 156: void TimeDelay_Reset (vTimer *vTimer);
+[; ;TimeDelay.h: 177: void TimeDelay_Set (vTimer *vTimer, unsigned int delay);
 [; ;Keyboard.h: 45: typedef enum {
 [; ;Keyboard.h: 46: KEYBOARD_STATES_INIT = 0,
 [; ;Keyboard.h: 47: KEYBOARD_STATES_IDLE,
 [; ;Keyboard.h: 48: KEYBOARD_STATES_ERROR,
-[; ;Keyboard.h: 49: } KEYBOARD_STATES;
-[; ;Keyboard.h: 51: typedef struct {
-[; ;Keyboard.h: 52: KEYBOARD_STATES state;
-[; ;Keyboard.h: 53: } KEYBOARD_DATA;
-"58 mcc_generated_files/../src/Keyboard.h
+[; ;Keyboard.h: 49: KEYBOARD_STATES_PROCESS,
+[; ;Keyboard.h: 50: KEYBOARD_STATES_F1,
+[; ;Keyboard.h: 51: KEYBOARD_STATES_F2,
+[; ;Keyboard.h: 52: } KEYBOARD_STATES;
+[; ;Keyboard.h: 54: typedef struct {
+[; ;Keyboard.h: 55: KEYBOARD_STATES state;
+[; ;Keyboard.h: 56: } KEYBOARD_DATA;
+"61 mcc_generated_files/../src/Keyboard.h
 [v _Keyboard_Data `S908 ~T0 @X0 1 e ]
-[; ;Keyboard.h: 58: KEYBOARD_DATA Keyboard_Data;
-[; ;Keyboard.h: 83: void Keyboard_Initialize(void);
-[; ;Keyboard.h: 104: void Keyboard_Tasks(void);
+[; ;Keyboard.h: 61: KEYBOARD_DATA Keyboard_Data;
+[; ;Keyboard.h: 86: void Keyboard_Initialize(void);
+[; ;Keyboard.h: 107: void Keyboard_Tasks(void);
 [; ;mcc.h: 75: void SYSTEM_Initialize(void);
 [; ;mcc.h: 88: void OSCILLATOR_Initialize(void);
 [; ;mcc.h: 101: void PMD_Initialize(void);

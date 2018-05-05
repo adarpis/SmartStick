@@ -53,13 +53,13 @@ extern "C" {
     typedef struct {
         TIMEDELAY_STATES state;
     } TIMEDELAY_DATA;
-    
+
     typedef struct {
         unsigned int delay;
         unsigned int down;
         unsigned int up;
         unsigned char status : 1;
-        unsigned char reset  : 1;
+        unsigned char reset : 1;
     } vTimer;
 
     /**
@@ -113,6 +113,69 @@ extern "C" {
      */
     void TimeDelay_Tasks(void);
 
+    /**
+    @Summary
+      None.
+
+    @Description
+      None
+
+    @Preconditions
+      None
+
+    @Param
+      None
+
+    @Returns
+      None
+
+    @Comment
+    
+     */
+    unsigned char NonBlockingDelay(vTimer *vTimer);
+
+    /**
+    @Summary
+      None.
+
+    @Description
+      None
+
+    @Preconditions
+      None
+
+    @Param
+      None
+
+    @Returns
+      None
+
+    @Comment
+    
+     */
+    void TimeDelay_Reset (vTimer *vTimer);
+    
+    /**
+    @Summary
+      None.
+
+    @Description
+      None
+
+    @Preconditions
+      None
+
+    @Param
+      None
+
+    @Returns
+      None
+
+    @Comment
+    
+     */
+    void TimeDelay_Set (vTimer *vTimer, unsigned int delay);
+    
 #ifdef __cplusplus  // Provide C++ Compatibility
 }
 #endif

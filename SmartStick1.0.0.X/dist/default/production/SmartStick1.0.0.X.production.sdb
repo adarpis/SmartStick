@@ -15,11 +15,14 @@ TIMEDELAY_STATES_INIT 0
 TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[e E8282 . `uc
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[e E8289 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
 "59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
 [e E8249 . `uc
@@ -33,11 +36,14 @@ TIMEDELAY_STATES_INIT 0
 TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[e E8282 . `uc
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[e E8289 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
 "54 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/ext_int.c
 [e E8123 . `uc
@@ -60,11 +66,14 @@ TIMEDELAY_STATES_INIT 0
 TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[e E8282 . `uc
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[e E8289 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
 "81 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/adc.c
 [e E8108 . `uc
@@ -87,11 +96,14 @@ TIMEDELAY_STATES_INIT 0
 TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[e E8282 . `uc
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[e E8289 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
 "59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Sensor_MB1040.h
 [e E1 . `uc
@@ -105,26 +117,32 @@ TIMEDELAY_STATES_INIT 0
 TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[e E8282 . `uc
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[e E8289 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.h
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.h
 [e E1 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
 "59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
-[e E8262 . `uc
+[e E8265 . `uc
 MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
 MB1040_STATES_ERROR 2
 ]
 "68 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/TimeDelay.h
-[e E8275 . `uc
+[e E8278 . `uc
 TIMEDELAY_STATES_INIT 0
 TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
@@ -136,16 +154,19 @@ TIMEDELAY_STATES_IDLE 1
 TIMEDELAY_STATES_ERROR 2
 ]
 "59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
-[e E8274 . `uc
+[e E8281 . `uc
 MB1040_STATES_INIT 0
 MB1040_STATES_IDLE 1
 MB1040_STATES_ERROR 2
 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[e E8287 . `uc
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[e E8294 . `uc
 KEYBOARD_STATES_INIT 0
 KEYBOARD_STATES_IDLE 1
 KEYBOARD_STATES_ERROR 2
+KEYBOARD_STATES_PROCESS 3
+KEYBOARD_STATES_F1 4
+KEYBOARD_STATES_F2 5
 ]
 "62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
 [v ___ftpack __ftpack `(f  1 e 3 0 ]
@@ -199,9 +220,13 @@ KEYBOARD_STATES_ERROR 2
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
 "145
 [v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
-"43 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.c
+"117 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.c
 [v _Keyboard_Initialize Keyboard_Initialize `(v  1 e 1 0 ]
-"47
+"126
+[v _Keyboard_Process_A Keyboard_Process_A `(v  1 e 1 0 ]
+"141
+[v _Keyboard_Process_B Keyboard_Process_B `(v  1 e 1 0 ]
+"159
 [v _Keyboard_Tasks Keyboard_Tasks `(v  1 e 1 0 ]
 "47 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Sensor_MB1040.c
 [v _MB1040_Initialize MB1040_Initialize `(v  1 e 1 0 ]
@@ -211,16 +236,43 @@ KEYBOARD_STATES_ERROR 2
 [v _TimeDelay_Initialize TimeDelay_Initialize `(v  1 e 1 0 ]
 "69
 [v _Ticker_Handler Ticker_Handler `(v  1 e 1 0 ]
-"85
+"73
+[v _TimeDelay_Reset TimeDelay_Reset `(v  1 e 1 0 ]
+"77
+[v _TimeDelay_Set TimeDelay_Set `(v  1 e 1 0 ]
+"82
+[v _NonBlockingDelay NonBlockingDelay `(uc  1 e 1 0 ]
+"98
 [v _TimeDelay_Tasks TimeDelay_Tasks `(v  1 e 1 0 ]
-[s S221 . 1 `uc 1 INTEDG 1 0 :1:0 
+[s S227 . 1 `uc 1 INTEDG 1 0 :1:0 
 `uc 1 . 1 0 :5:1 
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
 "424 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16lf15344.h
-[u S226 . 1 `S221 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES226  1 e 1 @11 ]
+[u S232 . 1 `S227 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES232  1 e 1 @11 ]
+[s S848 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508
+[u S854 . 1 `S848 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES854  1 e 1 @13 ]
+[s S827 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"550
+[u S836 . 1 `S827 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES836  1 e 1 @14 ]
 "595
 [v _TRISA TRISA `VEuc  1 e 1 @18 ]
 "640
@@ -229,7 +281,7 @@ KEYBOARD_STATES_ERROR 2
 [v _TRISC TRISC `VEuc  1 e 1 @20 ]
 "741
 [v _LATA LATA `VEuc  1 e 1 @24 ]
-[s S651 . 1 `uc 1 LATA0 1 0 :1:0 
+[s S663 . 1 `uc 1 LATA0 1 0 :1:0 
 `uc 1 LATA1 1 0 :1:1 
 `uc 1 LATA2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -237,22 +289,22 @@ KEYBOARD_STATES_ERROR 2
 `uc 1 LATA5 1 0 :1:5 
 ]
 "756
-[u S658 . 1 `S651 1 . 1 0 ]
-[v _LATAbits LATAbits `VES658  1 e 1 @24 ]
+[u S670 . 1 `S663 1 . 1 0 ]
+[v _LATAbits LATAbits `VES670  1 e 1 @24 ]
 "786
 [v _LATB LATB `VEuc  1 e 1 @25 ]
-[s S719 . 1 `uc 1 . 1 0 :4:0 
+[s S734 . 1 `uc 1 . 1 0 :4:0 
 `uc 1 LATB4 1 0 :1:4 
 `uc 1 LATB5 1 0 :1:5 
 `uc 1 LATB6 1 0 :1:6 
 `uc 1 LATB7 1 0 :1:7 
 ]
 "800
-[u S725 . 1 `S719 1 . 1 0 ]
-[v _LATBbits LATBbits `VES725  1 e 1 @25 ]
+[u S740 . 1 `S734 1 . 1 0 ]
+[v _LATBbits LATBbits `VES740  1 e 1 @25 ]
 "825
 [v _LATC LATC `VEuc  1 e 1 @26 ]
-[s S734 . 1 `uc 1 LATC0 1 0 :1:0 
+[s S749 . 1 `uc 1 LATC0 1 0 :1:0 
 `uc 1 LATC1 1 0 :1:1 
 `uc 1 LATC2 1 0 :1:2 
 `uc 1 LATC3 1 0 :1:3 
@@ -262,15 +314,15 @@ KEYBOARD_STATES_ERROR 2
 `uc 1 LATC7 1 0 :1:7 
 ]
 "842
-[u S743 . 1 `S734 1 . 1 0 ]
-[v _LATCbits LATCbits `VES743  1 e 1 @26 ]
+[u S758 . 1 `S749 1 . 1 0 ]
+[v _LATCbits LATCbits `VES758  1 e 1 @26 ]
 "894
 [v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
 "964
 [v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
 "1034
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
-[s S479 . 1 `uc 1 ADON 1 0 :1:0 
+[s S488 . 1 `uc 1 ADON 1 0 :1:0 
 `uc 1 GOnDONE 1 0 :1:1 
 `uc 1 CHS0 1 0 :1:2 
 `uc 1 CHS1 1 0 :1:3 
@@ -280,11 +332,11 @@ KEYBOARD_STATES_ERROR 2
 `uc 1 CHS5 1 0 :1:7 
 ]
 "1055
-[s S488 . 1 `uc 1 . 1 0 :2:0 
+[s S497 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 CHS 1 0 :6:2 
 ]
-[u S491 . 1 `S479 1 . 1 0 `S488 1 . 1 0 ]
-[v _ADCON0bits ADCON0bits `VES491  1 e 1 @157 ]
+[u S500 . 1 `S488 1 . 1 0 `S497 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES500  1 e 1 @157 ]
 "1105
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
 "6604
@@ -293,31 +345,31 @@ KEYBOARD_STATES_ERROR 2
 [v _TMR0H TMR0H `VEuc  1 e 1 @1437 ]
 "6996
 [v _T0CON0 T0CON0 `VEuc  1 e 1 @1438 ]
-[s S567 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+[s S576 . 1 `uc 1 T0OUTPS 1 0 :4:0 
 `uc 1 T016BIT 1 0 :1:4 
 `uc 1 T0OUT 1 0 :1:5 
 `uc 1 . 1 0 :1:6 
 `uc 1 T0EN 1 0 :1:7 
 ]
 "7016
-[s S573 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+[s S582 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
 `uc 1 T0OUTPS1 1 0 :1:1 
 `uc 1 T0OUTPS2 1 0 :1:2 
 `uc 1 T0OUTPS3 1 0 :1:3 
 ]
-[u S578 . 1 `S567 1 . 1 0 `S573 1 . 1 0 ]
-[v _T0CON0bits T0CON0bits `VES578  1 e 1 @1438 ]
+[u S587 . 1 `S576 1 . 1 0 `S582 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES587  1 e 1 @1438 ]
 "7061
 [v _T0CON1 T0CON1 `VEuc  1 e 1 @1439 ]
-[s S200 . 1 `uc 1 INTF 1 0 :1:0 
+[s S206 . 1 `uc 1 INTF 1 0 :1:0 
 `uc 1 . 1 0 :3:1 
 `uc 1 IOCIF 1 0 :1:4 
 `uc 1 TMR0IF 1 0 :1:5 
 ]
 "7922
-[u S205 . 1 `S200 1 . 1 0 ]
-[v _PIR0bits PIR0bits `VES205  1 e 1 @1804 ]
-[s S253 . 1 `uc 1 SSP1IF 1 0 :1:0 
+[u S211 . 1 `S206 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES211  1 e 1 @1804 ]
+[s S259 . 1 `uc 1 SSP1IF 1 0 :1:0 
 `uc 1 BCL1IF 1 0 :1:1 
 `uc 1 . 1 0 :2:2 
 `uc 1 TX1IF 1 0 :1:4 
@@ -326,17 +378,17 @@ KEYBOARD_STATES_ERROR 2
 `uc 1 RC2IF 1 0 :1:7 
 ]
 "8030
-[u S261 . 1 `S253 1 . 1 0 ]
-[v _PIR3bits PIR3bits `VES261  1 e 1 @1807 ]
-[s S187 . 1 `uc 1 INTE 1 0 :1:0 
+[u S267 . 1 `S259 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES267  1 e 1 @1807 ]
+[s S193 . 1 `uc 1 INTE 1 0 :1:0 
 `uc 1 . 1 0 :3:1 
 `uc 1 IOCIE 1 0 :1:4 
 `uc 1 TMR0IE 1 0 :1:5 
 ]
 "8217
-[u S192 . 1 `S187 1 . 1 0 ]
-[v _PIE0bits PIE0bits `VES192  1 e 1 @1814 ]
-[s S234 . 1 `uc 1 SSP1IE 1 0 :1:0 
+[u S198 . 1 `S193 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES198  1 e 1 @1814 ]
+[s S240 . 1 `uc 1 SSP1IE 1 0 :1:0 
 `uc 1 BCL1IE 1 0 :1:1 
 `uc 1 . 1 0 :2:2 
 `uc 1 TX1IE 1 0 :1:4 
@@ -345,8 +397,8 @@ KEYBOARD_STATES_ERROR 2
 `uc 1 RC2IE 1 0 :1:7 
 ]
 "8319
-[u S242 . 1 `S234 1 . 1 0 ]
-[v _PIE3bits PIE3bits `VES242  1 e 1 @1817 ]
+[u S248 . 1 `S240 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES248  1 e 1 @1817 ]
 "8493
 [v _PMD0 PMD0 `VEuc  1 e 1 @1942 ]
 "8538
@@ -381,7 +433,7 @@ KEYBOARD_STATES_ERROR 2
 [v _SP2BRGH SP2BRGH `VEuc  1 e 1 @2588 ]
 "11235
 [v _RC2STA RC2STA `VEuc  1 e 1 @2589 ]
-[s S333 . 1 `uc 1 RX9D 1 0 :1:0 
+[s S339 . 1 `uc 1 RX9D 1 0 :1:0 
 `uc 1 OERR 1 0 :1:1 
 `uc 1 FERR 1 0 :1:2 
 `uc 1 ADDEN 1 0 :1:3 
@@ -391,36 +443,36 @@ KEYBOARD_STATES_ERROR 2
 `uc 1 SPEN 1 0 :1:7 
 ]
 "11257
-[u S342 . 1 `S333 1 . 1 0 ]
-[v _RC2STAbits RC2STAbits `VES342  1 e 1 @2589 ]
+[u S348 . 1 `S339 1 . 1 0 ]
+[v _RC2STAbits RC2STAbits `VES348  1 e 1 @2589 ]
 "11357
 [v _TX2STA TX2STA `VEuc  1 e 1 @2590 ]
 "11479
 [v _BAUD2CON BAUD2CON `VEuc  1 e 1 @2591 ]
-[s S138 . 1 `uc 1 INTPPS 1 0 :6:0 
+[s S141 . 1 `uc 1 INTPPS 1 0 :6:0 
 ]
 "15945
-[s S140 . 1 `uc 1 INTPPS0 1 0 :1:0 
+[s S143 . 1 `uc 1 INTPPS0 1 0 :1:0 
 `uc 1 INTPPS1 1 0 :1:1 
 `uc 1 INTPPS2 1 0 :1:2 
 `uc 1 INTPPS3 1 0 :1:3 
 `uc 1 INTPPS4 1 0 :1:4 
 `uc 1 INTPPS5 1 0 :1:5 
 ]
-[u S147 . 1 `S138 1 . 1 0 `S140 1 . 1 0 ]
-[v _INTPPSbits INTPPSbits `VES147  1 e 1 @7824 ]
-[s S116 . 1 `uc 1 RX2DTPPS 1 0 :6:0 
+[u S150 . 1 `S141 1 . 1 0 `S143 1 . 1 0 ]
+[v _INTPPSbits INTPPSbits `VES150  1 e 1 @7824 ]
+[s S119 . 1 `uc 1 RX2DTPPS 1 0 :6:0 
 ]
 "17027
-[s S118 . 1 `uc 1 RX2DTPPS0 1 0 :1:0 
+[s S121 . 1 `uc 1 RX2DTPPS0 1 0 :1:0 
 `uc 1 RX2DTPPS1 1 0 :1:1 
 `uc 1 RX2DTPPS2 1 0 :1:2 
 `uc 1 RX2DTPPS3 1 0 :1:3 
 `uc 1 RX2DTPPS4 1 0 :1:4 
 `uc 1 RX2DTPPS5 1 0 :1:5 
 ]
-[u S125 . 1 `S116 1 . 1 0 `S118 1 . 1 0 ]
-[v _RX2DTPPSbits RX2DTPPSbits `VES125  1 e 1 @7885 ]
+[u S128 . 1 `S119 1 . 1 0 `S121 1 . 1 0 ]
+[v _RX2DTPPSbits RX2DTPPSbits `VES128  1 e 1 @7885 ]
 "17565
 [v _RC0PPS RC0PPS `VEuc  1 e 1 @7968 ]
 "17917
@@ -461,14 +513,30 @@ KEYBOARD_STATES_ERROR 2
 [v _INT_InterruptHandler INT_InterruptHandler `*.37(v  1 e 2 0 ]
 "58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/tmr0.c
 [v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+[s S43 . 1 `E8289 1 state 1 0 ]
+"61 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
+[v _Keyboard_Data Keyboard_Data `S43  1 e 1 0 ]
 [s S28 . 1 `E8249 1 state 1 0 ]
-"58 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Keyboard.h
-[v _Keyboard_Data Keyboard_Data `S28  1 e 1 0 ]
 "59 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/src/Sensor_MB1040.h
 [v _MB1040_Data MB1040_Data `S28  1 e 1 0 ]
 [s S19 . 7 `ui 1 adcResult1 2 0 `ui 1 adcResult_Sum 2 2 `uc 1 adccontSample 1 4 `ui 1 adcResultTot 2 5 ]
 "86 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X/mcc_generated_files/adc.h
 [v _ADCval ADCval `S19  1 e 7 0 ]
+[s S815 . 7 `ui 1 delay 2 0 `ui 1 down 2 2 `ui 1 up 2 4 `uc 1 status 1 6 :1:0 
+`uc 1 reset 1 6 :1:1 
+]
+"44 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.c
+[v _delay_F1 delay_F1 `S815  1 e 7 0 ]
+"45
+[v _delay_F2 delay_F2 `S815  1 e 7 0 ]
+"46
+[v _delay_BA delay_BA `S815  1 e 7 0 ]
+"47
+[v _delay_BB delay_BB `S815  1 e 7 0 ]
+"48
+[v _delay_BC delay_BC `S815  1 e 7 0 ]
+"49
+[v _delay_ESC delay_ESC `S815  1 e 7 0 ]
 "39 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
 [v _ticks ticks `VEui  1 e 2 0 ]
 "68 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.h
@@ -478,12 +546,12 @@ KEYBOARD_STATES_ERROR 2
 {
 "53
 } 0
-"85 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
+"98 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
 [v _TimeDelay_Tasks TimeDelay_Tasks `(v  1 e 1 0 ]
 {
-"86
+"99
 [v TimeDelay_Tasks@prior_ticks_secure prior_ticks_secure `ui  1 s 2 prior_ticks_secure ]
-"108
+"121
 } 0
 "65
 [v _TimeDelay_Initialize TimeDelay_Initialize `(v  1 e 1 0 ]
@@ -552,15 +620,61 @@ KEYBOARD_STATES_ERROR 2
 {
 "76
 } 0
-"47 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.c
+"159 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.c
 [v _Keyboard_Tasks Keyboard_Tasks `(v  1 e 1 0 ]
 {
-"61
+"183
 } 0
-"43
+"141
+[v _Keyboard_Process_B Keyboard_Process_B `(v  1 e 1 0 ]
+{
+"151
+} 0
+"126
+[v _Keyboard_Process_A Keyboard_Process_A `(v  1 e 1 0 ]
+{
+"139
+} 0
+"73 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
+[v _TimeDelay_Reset TimeDelay_Reset `(v  1 e 1 0 ]
+{
+[s S815 . 7 `ui 1 delay 2 0 `ui 1 down 2 2 `ui 1 up 2 4 `uc 1 status 1 6 :1:0 
+`uc 1 reset 1 6 :1:1 
+]
+[v TimeDelay_Reset@vTimer vTimer `*.4S815  1 a 1 wreg ]
+[v TimeDelay_Reset@vTimer vTimer `*.4S815  1 a 1 wreg ]
+[v TimeDelay_Reset@vTimer vTimer `*.4S815  1 a 1 0 ]
+"75
+} 0
+"82
+[v _NonBlockingDelay NonBlockingDelay `(uc  1 e 1 0 ]
+{
+[s S815 . 7 `ui 1 delay 2 0 `ui 1 down 2 2 `ui 1 up 2 4 `uc 1 status 1 6 :1:0 
+`uc 1 reset 1 6 :1:1 
+]
+[v NonBlockingDelay@vTimer vTimer `*.4S815  1 a 1 wreg ]
+[v NonBlockingDelay@vTimer vTimer `*.4S815  1 a 1 wreg ]
+"84
+"82
+[v NonBlockingDelay@vTimer vTimer `*.4S815  1 a 1 4 ]
+"96
+} 0
+"117 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/Keyboard.c
 [v _Keyboard_Initialize Keyboard_Initialize `(v  1 e 1 0 ]
 {
-"45
+"124
+} 0
+"77 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\src/TimeDelay.c
+[v _TimeDelay_Set TimeDelay_Set `(v  1 e 1 0 ]
+{
+[s S815 . 7 `ui 1 delay 2 0 `ui 1 down 2 2 `ui 1 up 2 4 `uc 1 status 1 6 :1:0 
+`uc 1 reset 1 6 :1:1 
+]
+[v TimeDelay_Set@vTimer vTimer `*.4S815  1 a 1 wreg ]
+[v TimeDelay_Set@vTimer vTimer `*.4S815  1 a 1 wreg ]
+[v TimeDelay_Set@delay delay `ui  1 p 2 0 ]
+[v TimeDelay_Set@vTimer vTimer `*.4S815  1 a 1 2 ]
+"80
 } 0
 "51 C:\Users\adria\MPLABXProjects\SmartStick\SmartStick1.0.0.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
