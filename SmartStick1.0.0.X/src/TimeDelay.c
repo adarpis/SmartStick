@@ -70,13 +70,26 @@ void Ticker_Handler(void) {
     ticks++;
 }
 
-uint8_t NonBlockingDelay(vTimer *vTimer) {
+void TimeDelay_Reset (vTimer *vTimer) {
+    vTimer->status = false;
+}
+
+void TimeDelay_Set (vTimer *vTimer, unsigned int delay) {
+    vTimer->delay = delay;
+    vTimer->status = false;
+}
+
+unsigned char NonBlockingDelay(vTimer *vTimer) {
     // structure de timer con valor y status
     if (!vTimer->status) {
         vTimer->down = ticks;
         vTimer->up = vTimer->down + vTimer->delay;
         vTimer->status = true;
-    } else if (ticks > vTimer->up && ticks < vTimer->down) {
+    } else if ((ticks > vTimer->up && ticks < vTimer->down) &&
+            vTimer->down > vTimer->up) {
+        vTimer->status = false;
+    } else if ((ticks > vTimer->up || ticks < vTimer->down) &&
+            vTimer->down < vTimer->up) {
         vTimer->status = false;
     }
     return vTimer->status;
