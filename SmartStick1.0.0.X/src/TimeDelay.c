@@ -106,16 +106,34 @@ void TimeDelay_Tasks(void) {
         }
         case TIMEDELAY_STATES_IDLE:
         {
+            uint16_t ticks_up = prior_ticks_secure + SAFETY_MLOOP_TIME;
+            //bool error = ((prior_ticks_secure > ticks_up) ? 
+            //    ((ticks > ticks_up) && (ticks < prior_ticks_secure)) : 
+            //    ((ticks > ticks_up) || (ticks < prior_ticks_secure)));
+            bool error = false;
+            if (prior_ticks_secure > ticks_up) {
+                if ((ticks > ticks_up) && (ticks < prior_ticks_secure)) 
+                    error = true;
+            } else {
+                if ((ticks > ticks_up) || (ticks < prior_ticks_secure)) 
+                    error = true;
+            }
+            //bool error = false;
+            //if (prior_ticks_secure > ticks_up) {
+            //    error = ((ticks > ticks_up) && (ticks < prior_ticks_secure));
+            //} else {
+            //    error = ((ticks > ticks_up) || (ticks < prior_ticks_secure));
+            //}
             //Optimizing, it can put WDT reset to do these
-            __conditional_software_breakpoint(ticks <= prior_ticks_secure);
-            if (ticks >= prior_ticks_secure)
-                TimeDelay_Data.state = TIMEDELAY_STATES_ERROR;
-            prior_ticks_secure = ticks + SAFETY_MLOOP_TIME;
+            __conditional_software_breakpoint(!error);
+            prior_ticks_secure = ticks;
+            if (error) TimeDelay_Data.state = TIMEDELAY_STATES_ERROR;
             break;
         }
         case TIMEDELAY_STATES_ERROR:
         {
             RESET();
+            break;
         }
     }
 }

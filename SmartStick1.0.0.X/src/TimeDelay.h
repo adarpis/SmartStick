@@ -39,7 +39,7 @@ extern "C" {
       Section: Macro Declarations
      */
     //#define FOO  (foo.var)
-#define SAFETY_MLOOP_TIME 100
+#define SAFETY_MLOOP_TIME 400
 
     /**
       Section: Data Type Definitions

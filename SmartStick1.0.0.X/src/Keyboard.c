@@ -136,6 +136,7 @@ void Keyboard_Process_A(void) {
         TimeDelay_Reset(&delay_F1);
         TimeDelay_Reset(&delay_F2);
     }
+    //while (NonBlockingDelay(&delay_F1));
 }
 
 void Keyboard_Process_B(void) {
