@@ -50,3 +50,8 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+#Build directories
+/SmartStick1.0.0.X/dist
+/SmartStick1.0.0.X/build
+/SmartStick1.0.0.X/debug
